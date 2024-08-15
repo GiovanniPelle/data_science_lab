@@ -1,6 +1,8 @@
 # Particle Passage Detector Dataset Regression Problem
 
-<img src="images/Spatial_Electrons_Distribution.png" alt="Spatial Electrons Distribution" width="600"/>
+<div align="center">
+    <img src="images/Spatial_Electrons_Distribution.png" alt="Spatial Electrons Distribution" width="500"/>
+</div>
 
 ## Overview
 
@@ -29,12 +31,12 @@ Two different preprocessing approaches were explored:
 
 1. **Correlation-based preprocessing**:
    - Heatmaps were generated to evaluate the correlation between features. This method helped identify and exclude the noisy pads, reducing the feature set from 90 to 60.
-   - <img src="images/hpmax.png" alt="pmax Correlation Heatmap" width="600"/>
-   - <img src="images/htmax.png" alt="tmax Correlation Heatmap" width="600"/>
+   - <img src="images/hpmax.png" alt="pmax Correlation Heatmap" width="300"/>
+   - <img src="images/htmax.png" alt="tmax Correlation Heatmap" width="300"/>
 
 2. **Signal-to-Noise Ratio (SNR) preprocessing**:
    - SNR was calculated for each pad, and the pads with the lowest SNR values were excluded.
-   - <img src="images/SNR.png" alt="Worst SNR Count" width="600"/>
+   - <img src="images/SNR.png" alt="Worst SNR Count" width="300"/>
 
 ### Dimensionality Reduction
 
