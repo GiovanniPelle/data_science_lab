@@ -38,8 +38,8 @@ Two different preprocessing approaches were explored:
 
 2. **Signal-to-Noise Ratio (SNR) preprocessing**:
    - SNR was calculated for each pad, and the pads with the lowest SNR values were excluded.
-     <div align="center">
-        <img src="images/SNR.png" alt="Worst SNR Count" width="300"/>
+     <div align="center" style="margin-top: 20px;">
+        <img src="images/SNR.png" alt="Worst SNR Count" width="400"/>
     </div>
 
 ### Dimensionality Reduction
