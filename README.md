@@ -1,7 +1,7 @@
 
 # Particle Passage Detector Dataset Regression Problem
 
-![Electron Spatial Distribution](images/electron_spatial_distribution.png)
+![Electron Spatial Distribution](images/electron_spatial_distribution.pdf)
 
 ## Overview
 
