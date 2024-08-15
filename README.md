@@ -30,8 +30,8 @@ Two different preprocessing approaches were explored:
 
 1. **Correlation-based preprocessing**:
    - Heatmaps were generated to evaluate the correlation between features. This method helped identify and exclude the noisy pads, reducing the feature set from 90 to 60.
-   - ![pmax Correlation Heatmap](images/pmax_correlation_heatmap.png)
-   - ![tmax Correlation Heatmap](images/tmax_correlation_heatmap.png)
+   - ![pmax Correlation Heatmap](images/hpmax.png)
+   - ![tmax Correlation Heatmap](images/htmax.png)
 
 2. **Signal-to-Noise Ratio (SNR) preprocessing**:
    - SNR was calculated for each pad, and the pads with the lowest SNR values were excluded.
@@ -73,8 +73,8 @@ For a detailed explanation of the methodologies and results, please refer to the
 
 1. Clone the repository.
 2. Install the required packages using `pip install -r requirements.txt`.
-3. Run the notebook `s331438_code.ipynb` to train the model and generate predictions.
+3. Run the notebook `scratch_code.ipynb` to train the model and generate predictions.
 
 ## Acknowledgments
 
-This project was developed as part of a course at Politecnico di Torino. Special thanks to the course instructors and fellow students for their support.
+This project was developed as part of a course at Politecnico di Torino. Special thanks to the course instructors and fellow students for their support. 
