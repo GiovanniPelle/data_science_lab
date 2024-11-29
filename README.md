@@ -76,12 +76,6 @@ The project demonstrates the importance of careful feature selection and preproc
 
 For a detailed explanation of the methodologies and results, please refer to the [report](s331438_report_winter.pdf).
 
-## How to Use
-
-1. Clone the repository.
-2. Install the required packages using `pip install -r requirements.txt`.
-3. Run the notebook `scratch_code.ipynb` to train the model and generate predictions.
-
 ## Acknowledgments
 
 This project was developed as part of a course at Politecnico di Torino. Special thanks to the course instructors and fellow students for their support.
